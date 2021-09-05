@@ -1,0 +1,62 @@
+ATOM
+
+<파일과 창관리>-Project
+ATOM 특징 :
+- 여러개의 폴더를 하나의 프로젝트처럼 관리 가능
+- [file]-> [add_project_floder]를 통해서 다른 위치 디렉토리를 추가해서
+  다른 폴더에 위치한 프로젝트도 하나의 프로젝트처럼 하나의 화면에서 관리 가능
+
+ [view] toggle_tree_view 좌측 창 관리가능
+
+
+하나의 화면에 여러개의 창 띠우기 -(우클릭 해서 split 위) : 화면 분할!
+-> 할용 : 하나의 파일도 여러개 띄우기 가능/ 긴 파일을 여러 부분 동시에 보면서 수정가능
+
+
+<검색> find / 검색후 변경 시 : replace(변경도 가능)
+ [find] -> [find in buffer] 커서가 있는 위치에 있는 것을 버퍼라고 함(atom에서는)
+열러 있는 창에서 탐색 가능
+[find next] F3
+[find previews] shift + F3
+
+
+[Find in Project] 폴더 내에서(프로젝트 전체) 다 검색해서 찾아줌 ctrl shift F
+
+[find file] ctrl + P 파일 이름을 빨리 찾을때(파일 이름 기억이 안날때도 사용가능)
+->(쉽게찾도록 도와줌)퍼지기능 : 특징들을 활용해서 추천해서 찾아줌
+
+<자동완성기능>
+api 추천해주는 기능
+파일 확장자로 atom은 인식을 함
+작성을 할때 거기에 맞는 문법을 추천해줌(도움을 줌)
+ex) <html> 하고 tab을 하면 </html> 자동완성 // 글자를 다 완성할 필요도 없이 글자, value 추천해줌
+ex) 가장 근접한 글자를 추천해줌 t d 만 입력해도 text-decoration 추천(enter시 자동완성)
+
+
+
+<설정> _튜닝
+[keybinding] : 단축키세팅
+[packages] : 설치된 플러그인들 보여줌, atom은 확장성이 좋음
+[themes] : 편집화면 바꿈
+
+
+<emmet> _> 홈페이지 참고해서 단축기 확인하기
+# tab 키가 중요!! tab = ctrl+e [단축키]
+emmet 다큐멘터리 참고 ( 문법 공부 가능)
+
+
+! tab을 하면 기본적인 골격이 만들어짐
+
+ul tab
+li *20
+li>a*20
+(li>a)*20
+
+# child
+nav>ul>li
+ #sibling
+div+p+dq
+
+nav>ul>li^a
+
+html 주석 처리 : <!--  내용 -->

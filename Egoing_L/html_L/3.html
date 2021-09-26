@@ -4,6 +4,8 @@
   <title>WEB1 - JavaScript_생활코딩 </title>
   <meta charset="UTF-8"> <!-- 한글 안깨지게-->
   <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="color.js"></script>
 </head>
 
 <body>
@@ -13,6 +15,13 @@ ordered list<ol>
 unoredered list<ul>
 -->
 <h1> <a href="index.html">WEB</a></h1>
+<input type="button" value="night" onclick="
+  nightDayHandler(this);
+">
+<input type="button" value="night" onclick="
+  nightDayHandler(this);
+">
+
   <div id='grid'>
     <div>
       <ol>
@@ -60,6 +69,52 @@ unoredered list<ul>
 <h5>This is heading 5</h5>
 <h6>This is heading 6</h6>
 
+<input type="button" value="night" onclick="
+  document.querySelector('body').style.backgroundColor = 'black';
+  document.querySelector('body').style.color = 'white';
+">
+<input type="button" value="day" onclick="
+  document.querySelector('body').style.backgroundColor = 'white';
+  document.querySelector('body').style.color = 'black';
+">
+<input id="night_day" type="button" value="night" onclick="
+if (document.querySelector('#night_day').value === 'night'){
+  document.querySelector('body').style.backgroundColor = 'black';
+  document.querySelector('body').style.color = 'white';
+  document.querySelector('#night_day').value = 'day';
+
+}else{
+  document.querySelector('body').style.backgroundColor = 'white';
+  document.querySelector('body').style.color = 'black';
+  document.querySelector('#night_day').value = 'night';
+}
+">
+
+<input type="button" value="night" onclick="
+var target = document.querySelector('body');
+if(this.value === 'night'){
+  target.style.backgroundColor = 'black';
+  target.style.color = 'white';
+  this.value = 'day';
+  var alist = document.querySelectorAll('a');
+  var i =0;
+  while(i < alist.length){
+    console.log(alist[i]);
+    alist[i].style.color = 'powderblue';
+    i = i +1;
+  }
+
+  }else{
+  target.style.backgroundColor = 'white';
+  target.style.color = 'black';
+  this.value = 'night';
+  var alist = document.querySelectorAll('a');
+  var i =0;
+  while(i < alist.length){
+    console.log(alist[i]);
+    alist[i].style.color = 'blue';
+    i = i +1;}
+  }">
 
 </body>
 </html>

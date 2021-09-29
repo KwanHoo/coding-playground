@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="DOMJS.js"></script>
+    <title></title>
+  </head>
+  <body>
+    <h1>메모장</h1>
+    <h2>오늘의 할 일</h2>
+      <div id="tododiv">
+        <ol id="todol">
+          <li id="todoli"></li>
+        </ol>
+      </div>
+    <h3>계획 추가</h3>
+    <input type="text" id="add_plan" name="add_plan">
+    <button type="button" id="addNPB">새로운 계획 추가하기</button>
+    <h3>계획 수정하기</h3>
+    <label for="num">번호 : </label>
+    <input type="text" id="num" name="num"><br>
+    <label for="aft_edit">수정후 : </label>
+    <input type="text" id="aft_edit" name="aft_edit">
+    <button id="convert" onclick="myConvert()">계획 수정하기</button>
+
+  </body>
+</html>

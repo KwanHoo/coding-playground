@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>폼 요소</h1>
+    <form action="" method="post">
+      <p>이름을 입력하세요</p>
+      <p><input type="text" name="username"></p>
+      <p><input type="submit"></p>
+      <select name="pickbook" id="spb">
+        <option value="1">C</option>
+        <option value="2">JAVA</option>
+        <option value="3" selected>PYTHON</option>
+      </select>
+    </form>
+    <hr>
+    <h2>input 태그</h2>
+    <form action="" method="get">
+      <p>이름 : <input type="text"></p>
+      <p>비밀번호 : <input type="password"></p>
+      <p>성별 : <input type="radio">남 <input type="radio">여</p>
+      <p>직업 : <input type="checkbox">학생 <input type="checkbox">기타</p>
+      <p>파일 : <input type="file"></p>
+      등록하시겠습니까?
+      <p><input type="reset"> <input type="submit"></p>
+    </form>
+    <hr>
+    <h2>버튼 태그</h2>
+    <form action="" method="post">
+      <button type="submit">보내기</button>
+      <button type="reset">지우기</button>
+      <button type="button">버튼</button>
+      <p><button value="2400">2400</button></p>
+    </form>
+    <hr>
+    <h2>textarea 태그</h2>
+    <form action="" method="get">
+      <textarea name="" id="" cols="30" rows="10">자유롭게 입력하세요</textarea>
+    </form>
+    <hr>
+    <h2>label 태그</h2>
+    <form action="" method="get">
+      <label for="name">성함</label>
+      <input type="text" id = "name">
+    </form>
+    <h2>fieldset 태그 & legend 태그</h2>
+    <form action="" method = "get">
+      <fieldset>
+        <legend>주소등록</legend>
+          <label for="address">주소</label>
+          <input type="text" id="address">
+      </fieldset>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>탬플릿 문자열 / 백틱(`)</h1>
+    <script>
+      console.log(`표현식 273 + 52의 값은 ${273 + 52}입니다!!!`);
+      document.write(`표현식 273 + 52의 값은 ${273 + 52}입니다!!!`);
+    </script>
+    <h1>변수, 상수</h1>
+    <script>
+      let name = "name이라는 변수\n";
+      document.write(name);
+      const pi = 3.141592;
+      document.write(pi);
+    </script>
+    <h1>복합 대입 연산자 활용</h1>
+    <script>
+      // 변수 선운
+      let list = ''
+
+      // 연산자 사용
+      list += '<ul>'
+      list += '  <li>HELLO</li>'
+      list += '  <li>JavaScript..!!!</li>'
+      list += '</ul>'
+
+      // 출력
+      document.write(list)
+
+    </script>
+
+  </body>
+</html>

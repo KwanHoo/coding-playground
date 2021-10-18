@@ -10,3 +10,10 @@ div.regist_d{
 /* input[type="number"]{
   width:80px;
 } */
+
+#itemCost{
+  size : 10;
+}
+#itemNum{
+  size : 5;
+}

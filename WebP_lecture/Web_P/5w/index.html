@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>메모장</h1>
+    <h2>오늘의 할일</h2>
+    <ol id="todo">
+    </ol>
+    <div>
+        <h3>계획 추가</h3>
+        <input type = "text" id = "Text_input">
+        <button id ="Text_input_Button">새로운 계획 추가하기</button>
+    </div>
+    <div>
+        <h3>계획 수정하기</h3>
+        <label>
+            번호:
+            <input type="text" id="num">
+        </label>
+        <label>
+            수정 후:
+            <input type="text" id="after">
+        </label>
+        <button id="modify-btn">계획 수정하기</button>
+    </div>
+
+    <script src="./index.js"></script> <!-- javascript -->
+</body>
+</html>

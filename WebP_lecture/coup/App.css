@@ -1,0 +1,48 @@
+.hit-count {
+  font-size: 20px;
+}
+
+
+
+/* header CSS */
+a { text-decoration:none; color: #000}
+ul{ list-style: none;}
+
+li{ border: solid 1px gray; }
+
+#rank {
+  color: #0073e9;
+}
+#intro nav {
+  float: left;
+  width: 100%;
+  background-color: rgb(196, 194, 194);
+}
+
+#intro nav ul li {
+    width: 7%;
+    /* display: inline-block;*/
+    float: left;
+    text-align: left;
+}
+
+
+/* definition or description CSS */
+
+#product-list li {
+  width: 20%;
+  /* width: 250px; */
+  height: 380px;
+  float: left;
+  /* background-color: skyblue; */
+}
+.clear {
+  clear: both;
+}
+.line {
+  border: solid 3px white;
+  border-bottom-color: gray;
+  width : 81%;
+  margin: 20px 0 20px 0;
+}
+
